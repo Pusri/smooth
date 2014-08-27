@@ -1,0 +1,526 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ 'd:\\workspace\\project\\demo',
+5 verbose install   [ 'express',
+5 verbose install     'ejs',
+5 verbose install     'mongodb',
+5 verbose install     'connect-mongo',
+5 verbose install     'connect-flash',
+5 verbose install     'markdown' ] ]
+6 info preinstall smooth@0.0.1
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping express@3.2.2 d:\workspace\project\demo
+9 verbose already installed skipping ejs@* d:\workspace\project\demo
+10 verbose already installed skipping mongodb@>=0.9.6-7 d:\workspace\project\demo
+11 verbose already installed skipping connect-mongo@* d:\workspace\project\demo
+12 verbose already installed skipping connect-flash@* d:\workspace\project\demo
+13 verbose cache add [ 'markdown@*', null ]
+14 verbose cache add name=undefined spec="markdown@*" args=["markdown@*",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'markdown@*',
+15 verbose parsed url   path: 'markdown@*',
+15 verbose parsed url   href: 'markdown@*' }
+16 verbose cache add name="markdown" spec="*" args=["markdown","*"]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: '*',
+17 verbose parsed url   path: '*',
+17 verbose parsed url   href: '*' }
+18 verbose addNamed [ 'markdown', '*' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile 0bfa578b-markdown markdown@*
+21 verbose lock markdown@* C:\Users\Puaha\AppData\Roaming\npm-cache\0bfa578b-markdown.lock
+22 silly addNameRange { name: 'markdown', range: '*', hasData: false }
+23 verbose url raw markdown
+24 verbose url resolving [ 'https://registry.npmjs.org/', './markdown' ]
+25 verbose url resolved https://registry.npmjs.org/markdown
+26 info trying registry request attempt 1 at 21:05:35
+27 http GET https://registry.npmjs.org/markdown
+28 http 200 https://registry.npmjs.org/markdown
+29 silly registry.get cb [ 200,
+29 silly registry.get   { date: 'Tue, 19 Aug 2014 13:05:38 GMT',
+29 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly registry.get     etag: '"74GV2NB3UD4BNWISY9ZER153K"',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=60',
+29 silly registry.get     'content-length': '9307',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '820',
+29 silly registry.get     'x-served-by': 'cache-ty68-TYO',
+29 silly registry.get     'x-cache': 'HIT',
+29 silly registry.get     'x-cache-hits': '1',
+29 silly registry.get     'x-timer': 'S1408453537.858330,VS0,VE1116',
+29 silly registry.get     vary: 'Accept',
+29 silly registry.get     'keep-alive': 'timeout=10, max=50',
+29 silly registry.get     connection: 'Keep-Alive' } ]
+30 silly addNameRange number 2 { name: 'markdown', range: '*', hasData: true }
+31 silly addNameRange versions [ 'markdown',
+31 silly addNameRange   [ '0.1.0',
+31 silly addNameRange     '0.1.1',
+31 silly addNameRange     '0.1.2',
+31 silly addNameRange     '0.2.1',
+31 silly addNameRange     '0.3.0',
+31 silly addNameRange     '0.3.1',
+31 silly addNameRange     '0.4.0',
+31 silly addNameRange     '0.5.0' ] ]
+32 verbose addNamed [ 'markdown', '0.5.0' ]
+33 verbose addNamed [ '0.5.0', '0.5.0' ]
+34 silly lockFile a99f05a7-markdown-0-5-0 markdown@0.5.0
+35 verbose lock markdown@0.5.0 C:\Users\Puaha\AppData\Roaming\npm-cache\a99f05a7-markdown-0-5-0.lock
+36 silly lockFile ce414ae0--org-markdown-markdown-0-5-0-tgz https://registry.npmjs.org/markdown/-/markdown-0.5.0.tgz
+37 verbose lock https://registry.npmjs.org/markdown/-/markdown-0.5.0.tgz C:\Users\Puaha\AppData\Roaming\npm-cache\ce414ae0--org-markdown-markdown-0-5-0-tgz.lock
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/markdown/-/markdown-0.5.0.tgz',
+38 verbose addRemoteTarball   '28205b565a8ae7592de207463d6637dc182722b2' ]
+39 info retry fetch attempt 1 at 21:05:37
+40 verbose fetch to= C:\Users\Puaha\AppData\Local\Temp\npm-5984-G14Q9QZH\1408453537558-0.19932271004654467\tmp.tgz
+41 http GET https://registry.npmjs.org/markdown/-/markdown-0.5.0.tgz
+42 http 200 https://registry.npmjs.org/markdown/-/markdown-0.5.0.tgz
+43 verbose tar unpack C:\Users\Puaha\AppData\Local\Temp\npm-5984-G14Q9QZH\1408453537558-0.19932271004654467\tmp.tgz
+44 silly lockFile 95172a8a-npm-cache-markdown-0-5-0-package tar://C:\Users\Puaha\AppData\Roaming\npm-cache\markdown\0.5.0\package
+45 verbose lock tar://C:\Users\Puaha\AppData\Roaming\npm-cache\markdown\0.5.0\package C:\Users\Puaha\AppData\Roaming\npm-cache\95172a8a-npm-cache-markdown-0-5-0-package.lock
+46 silly lockFile 9e659371-7558-0-19932271004654467-tmp-tgz tar://C:\Users\Puaha\AppData\Local\Temp\npm-5984-G14Q9QZH\1408453537558-0.19932271004654467\tmp.tgz
+47 verbose lock tar://C:\Users\Puaha\AppData\Local\Temp\npm-5984-G14Q9QZH\1408453537558-0.19932271004654467\tmp.tgz C:\Users\Puaha\AppData\Roaming\npm-cache\9e659371-7558-0-19932271004654467-tmp-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 silly gunzTarPerm extractEntry package.json
+50 silly gunzTarPerm extractEntry .npmignore
+51 silly gunzTarPerm extractEntry .travis.yml
+52 silly gunzTarPerm extractEntry bin/md2html.js
+53 silly gunzTarPerm extractEntry Changes.markdown
+54 silly gunzTarPerm extractEntry lib/index.js
+55 silly gunzTarPerm extractEntry lib/markdown.js
+56 silly gunzTarPerm extractEntry markdown-js.sublime-project
+57 silly gunzTarPerm extractEntry markdown-js.sublime-workspace
+58 silly gunzTarPerm extractEntry README.markdown
+59 silly gunzTarPerm extractEntry seed.yml
+60 silly lockFile 95172a8a-npm-cache-markdown-0-5-0-package tar://C:\Users\Puaha\AppData\Roaming\npm-cache\markdown\0.5.0\package
+61 silly lockFile 95172a8a-npm-cache-markdown-0-5-0-package tar://C:\Users\Puaha\AppData\Roaming\npm-cache\markdown\0.5.0\package
+62 silly lockFile 9e659371-7558-0-19932271004654467-tmp-tgz tar://C:\Users\Puaha\AppData\Local\Temp\npm-5984-G14Q9QZH\1408453537558-0.19932271004654467\tmp.tgz
+63 silly lockFile 9e659371-7558-0-19932271004654467-tmp-tgz tar://C:\Users\Puaha\AppData\Local\Temp\npm-5984-G14Q9QZH\1408453537558-0.19932271004654467\tmp.tgz
+64 silly lockFile ce414ae0--org-markdown-markdown-0-5-0-tgz https://registry.npmjs.org/markdown/-/markdown-0.5.0.tgz
+65 silly lockFile ce414ae0--org-markdown-markdown-0-5-0-tgz https://registry.npmjs.org/markdown/-/markdown-0.5.0.tgz
+66 silly lockFile a99f05a7-markdown-0-5-0 markdown@0.5.0
+67 silly lockFile a99f05a7-markdown-0-5-0 markdown@0.5.0
+68 silly lockFile 0bfa578b-markdown markdown@*
+69 silly lockFile 0bfa578b-markdown markdown@*
+70 silly resolved [ { name: 'markdown',
+70 silly resolved     version: '0.5.0',
+70 silly resolved     description: 'A sensible Markdown parser for javascript',
+70 silly resolved     keywords: [ 'markdown', 'text processing', 'ast' ],
+70 silly resolved     maintainers: [ [Object], [Object] ],
+70 silly resolved     contributors: [ [Object], [Object] ],
+70 silly resolved     bugs: { url: 'http://github.com/evilstreak/markdown-js/issues' },
+70 silly resolved     licenses: [ [Object] ],
+70 silly resolved     repository:
+70 silly resolved      { type: 'git',
+70 silly resolved        url: 'git://github.com/evilstreak/markdown-js.git' },
+70 silly resolved     main: './lib/index.js',
+70 silly resolved     bin: { md2html: './bin/md2html.js' },
+70 silly resolved     dependencies: { nopt: '~2.1.1' },
+70 silly resolved     devDependencies: { tap: '~0.3.3' },
+70 silly resolved     scripts: { test: 'tap ./test/*.t.js' },
+70 silly resolved     readme: '# markdown-js\n\nYet another markdown parser, this time for JavaScript. There\'s a few\noptions that precede this project but they all treat markdown to HTML\nconversion as a single step process. You pass markdown in and get HTML\nout, end of story. We had some pretty particular views on how the\nprocess should actually look, which include:\n\n  * producing well-formed HTML. This means that `em` and `strong` nesting\n    is important, as is the ability to output as both HTML and XHTML\n\n  * having an intermediate representation to allow processing of parsed\n    data (we in fact have two, both [JsonML]: a markdown tree and an HTML tree)\n\n  * being easily extensible to add new dialects without having to\n    rewrite the entire parsing mechanics\n\n  * having a good test suite. The only test suites we could find tested\n    massive blocks of input, and passing depended on outputting the HTML\n    with exactly the same whitespace as the original implementation\n\n[JsonML]: http://jsonml.org/ "JSON Markup Language"\n\n## Installation\n\nJust the `markdown` library:\n\n    npm install markdown\n\nOptionally, install `md2html` into your path\n\n    npm install -g markdown\n\n## Usage\n\n### Node\n\nThe simple way to use it with node is:\n\n```js\nvar markdown = require( "markdown" ).markdown;\nconsole.log( markdown.toHTML( "Hello *World*!" ) );\n```\n\n### Browser\n\nIt also works in a browser; here is a complete example:\n\n```html\n<!DOCTYPE html>\n<html>\n  <body>\n    <textarea id="text-input" oninput="this.editor.update()"\n              rows="6" cols="60">Type **Markdown** here.</textarea>\n    <div id="preview"> </div>\n    <script src="lib/markdown.js"></script>\n    <script>\n      function Editor(input, preview) {\n        this.update = function () {\n          preview.innerHTML = markdown.toHTML(input.value);\n        };\n        input.editor = this;\n        this.update();\n      }\n      var $ = function (id) { return document.getElementById(id); };\n      new Editor($("text-input"), $("preview"));\n    </script>\n  </body>\n</html>\n```\n\n### Command line\n\nAssuming you\'ve installed the `md2html` script (see Installation,\nabove), you can convert markdown to html:\n\n```bash\n# read from a file\nmd2html /path/to/doc.md > /path/to/doc.html\n\n# or from stdin\necho \'Hello *World*!\' | md2html\n```\n\n### More options\n\nIf you want more control check out the documentation in\n[lib/markdown.js] which details all the methods and parameters\navailable (including examples!). One day we\'ll get the docs generated\nand hosted somewhere for nicer browsing.\n\n[lib/markdown.js]: http://github.com/evilstreak/markdown-js/blob/master/lib/markdown.js\n\nMeanwhile, here\'s an example of using the multi-step processing to\nmake wiki-style linking work by filling in missing link references:\n\n```js\nvar md = require( "markdown" ).markdown,\n    text = "[Markdown] is a simple text-based [markup language]\\n" +\n           "created by [John Gruber]\\n\\n" +\n           "[John Gruber]: http://daringfireball.net";\n\n// parse the markdown into a tree and grab the link references\nvar tree = md.parse( text ),\n    refs = tree[ 1 ].references;\n\n// iterate through the tree finding link references\n( function find_link_refs( jsonml ) {\n  if ( jsonml[ 0 ] === "link_ref" ) {\n    var ref = jsonml[ 1 ].ref;\n\n    // if there\'s no reference, define a wiki link\n    if ( !refs[ ref ] ) {\n      refs[ ref ] = {\n        href: "http://en.wikipedia.org/wiki/" + ref.replace(/\\s+/, "_" )\n      };\n    }\n  }\n  else if ( Array.isArray( jsonml[ 1 ] ) ) {\n    jsonml[ 1 ].forEach( find_link_refs );\n  }\n  else if ( Array.isArray( jsonml[ 2 ] ) ) {\n    jsonml[ 2 ].forEach( find_link_refs );\n  }\n} )( tree );\n\n// convert the tree into html\nvar html = md.renderJsonML( md.toHTMLTree( tree ) );\nconsole.log( html );\n```\n\n## Intermediate Representation\n\nInternally the process to convert a chunk of markdown into a chunk of\nHTML has three steps:\n\n 1. Parse the markdown into a JsonML tree. Any references found in the\n    parsing are stored in the attribute hash of the root node under the\n    key `references`.\n\n 2. Convert the markdown tree into an HTML tree. Rename any nodes that\n    need it (`bulletlist` to `ul` for example) and lookup any references\n    used by links or images. Remove the references attribute once done.\n\n 3. Stringify the HTML tree being careful not to wreck whitespace where\n    whitespace is important (surrounding inline elements for example).\n\nEach step of this process can be called individually if you need to do\nsome processing or modification of the data at an intermediate stage.\nFor example, you may want to grab a list of all URLs linked to in the\ndocument before rendering it to HTML which you could do by recursing\nthrough the HTML tree looking for `a` nodes.\n\n## Running tests\n\nTo run the tests under node you will need tap installed (it\'s listed as a\n`devDependencies` so `npm install` from the checkout should be enough), then do\n\n    $ npm test\n\n## Contributing\n\nDo the usual github fork and pull request dance. Add yourself to the\ncontributors section of [package.json](/package.json) too if you want to.\n\n## License\n\nReleased under the MIT license.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the "Software"), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of\nthe Software, and to permit persons to whom the Software is furnished to do so,\nsubject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+70 silly resolved     readmeFilename: 'README.markdown',
+70 silly resolved     homepage: 'https://github.com/evilstreak/markdown-js',
+70 silly resolved     _id: 'markdown@0.5.0',
+70 silly resolved     _shasum: '28205b565a8ae7592de207463d6637dc182722b2',
+70 silly resolved     _from: 'markdown@*',
+70 silly resolved     _resolved: 'https://registry.npmjs.org/markdown/-/markdown-0.5.0.tgz' } ]
+71 info install markdown@0.5.0 into d:\workspace\project\demo
+72 info installOne markdown@0.5.0
+73 info d:\workspace\project\demo\node_modules\markdown unbuild
+74 verbose tar unpack C:\Users\Puaha\AppData\Roaming\npm-cache\markdown\0.5.0\package.tgz
+75 silly lockFile e62a3426-oject-demo-node-modules-markdown tar://d:\workspace\project\demo\node_modules\markdown
+76 verbose lock tar://d:\workspace\project\demo\node_modules\markdown C:\Users\Puaha\AppData\Roaming\npm-cache\e62a3426-oject-demo-node-modules-markdown.lock
+77 silly lockFile 00853ac8-cache-markdown-0-5-0-package-tgz tar://C:\Users\Puaha\AppData\Roaming\npm-cache\markdown\0.5.0\package.tgz
+78 verbose lock tar://C:\Users\Puaha\AppData\Roaming\npm-cache\markdown\0.5.0\package.tgz C:\Users\Puaha\AppData\Roaming\npm-cache\00853ac8-cache-markdown-0-5-0-package-tgz.lock
+79 silly gunzTarPerm modes [ '755', '644' ]
+80 silly gunzTarPerm extractEntry package.json
+81 silly gunzTarPerm extractEntry .npmignore
+82 silly gunzTarPerm extractEntry .travis.yml
+83 silly gunzTarPerm extractEntry bin/md2html.js
+84 silly gunzTarPerm extractEntry Changes.markdown
+85 silly gunzTarPerm extractEntry lib/index.js
+86 silly gunzTarPerm extractEntry lib/markdown.js
+87 silly gunzTarPerm extractEntry markdown-js.sublime-project
+88 silly gunzTarPerm extractEntry markdown-js.sublime-workspace
+89 silly gunzTarPerm extractEntry README.markdown
+90 silly gunzTarPerm extractEntry seed.yml
+91 silly lockFile e62a3426-oject-demo-node-modules-markdown tar://d:\workspace\project\demo\node_modules\markdown
+92 silly lockFile e62a3426-oject-demo-node-modules-markdown tar://d:\workspace\project\demo\node_modules\markdown
+93 silly lockFile 00853ac8-cache-markdown-0-5-0-package-tgz tar://C:\Users\Puaha\AppData\Roaming\npm-cache\markdown\0.5.0\package.tgz
+94 silly lockFile 00853ac8-cache-markdown-0-5-0-package-tgz tar://C:\Users\Puaha\AppData\Roaming\npm-cache\markdown\0.5.0\package.tgz
+95 info preinstall markdown@0.5.0
+96 verbose readDependencies using package.json deps
+97 verbose readDependencies using package.json deps
+98 verbose cache add [ 'nopt@~2.1.1', null ]
+99 verbose cache add name=undefined spec="nopt@~2.1.1" args=["nopt@~2.1.1",null]
+100 verbose parsed url { protocol: null,
+100 verbose parsed url   slashes: null,
+100 verbose parsed url   auth: null,
+100 verbose parsed url   host: null,
+100 verbose parsed url   port: null,
+100 verbose parsed url   hostname: null,
+100 verbose parsed url   hash: null,
+100 verbose parsed url   search: null,
+100 verbose parsed url   query: null,
+100 verbose parsed url   pathname: 'nopt@~2.1.1',
+100 verbose parsed url   path: 'nopt@~2.1.1',
+100 verbose parsed url   href: 'nopt@~2.1.1' }
+101 verbose cache add name="nopt" spec="~2.1.1" args=["nopt","~2.1.1"]
+102 verbose parsed url { protocol: null,
+102 verbose parsed url   slashes: null,
+102 verbose parsed url   auth: null,
+102 verbose parsed url   host: null,
+102 verbose parsed url   port: null,
+102 verbose parsed url   hostname: null,
+102 verbose parsed url   hash: null,
+102 verbose parsed url   search: null,
+102 verbose parsed url   query: null,
+102 verbose parsed url   pathname: '~2.1.1',
+102 verbose parsed url   path: '~2.1.1',
+102 verbose parsed url   href: '~2.1.1' }
+103 verbose addNamed [ 'nopt', '~2.1.1' ]
+104 verbose addNamed [ null, '>=2.1.1-0 <2.2.0-0' ]
+105 silly lockFile 527d9343-nopt-2-1-1 nopt@~2.1.1
+106 verbose lock nopt@~2.1.1 C:\Users\Puaha\AppData\Roaming\npm-cache\527d9343-nopt-2-1-1.lock
+107 silly addNameRange { name: 'nopt', range: '>=2.1.1-0 <2.2.0-0', hasData: false }
+108 verbose url raw nopt
+109 verbose url resolving [ 'https://registry.npmjs.org/', './nopt' ]
+110 verbose url resolved https://registry.npmjs.org/nopt
+111 info trying registry request attempt 1 at 21:05:38
+112 verbose etag "CTII6RLF5JTZRLDKXLM9P498V"
+113 http GET https://registry.npmjs.org/nopt
+114 http 200 https://registry.npmjs.org/nopt
+115 silly registry.get cb [ 200,
+115 silly registry.get   { date: 'Tue, 19 Aug 2014 13:05:40 GMT',
+115 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+115 silly registry.get     etag: '"25JW2MW5LBWU1ICZ26LR6NN3D"',
+115 silly registry.get     'content-type': 'application/json',
+115 silly registry.get     'cache-control': 'max-age=60',
+115 silly registry.get     'content-length': '26212',
+115 silly registry.get     'accept-ranges': 'bytes',
+115 silly registry.get     via: '1.1 varnish',
+115 silly registry.get     age: '111',
+115 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+115 silly registry.get     'x-cache': 'HIT',
+115 silly registry.get     'x-cache-hits': '1',
+115 silly registry.get     'x-timer': 'S1408453540.890287,VS0,VE0',
+115 silly registry.get     vary: 'Accept',
+115 silly registry.get     'keep-alive': 'timeout=10, max=50',
+115 silly registry.get     connection: 'Keep-Alive' } ]
+116 silly addNameRange number 2 { name: 'nopt', range: '>=2.1.1-0 <2.2.0-0', hasData: true }
+117 silly addNameRange versions [ 'nopt',
+117 silly addNameRange   [ '1.0.0',
+117 silly addNameRange     '1.0.1',
+117 silly addNameRange     '1.0.2',
+117 silly addNameRange     '1.0.3',
+117 silly addNameRange     '1.0.4',
+117 silly addNameRange     '1.0.5',
+117 silly addNameRange     '1.0.6',
+117 silly addNameRange     '1.0.7',
+117 silly addNameRange     '1.0.8',
+117 silly addNameRange     '1.0.9',
+117 silly addNameRange     '1.0.10',
+117 silly addNameRange     '2.0.0',
+117 silly addNameRange     '2.1.0',
+117 silly addNameRange     '2.1.1',
+117 silly addNameRange     '2.1.2',
+117 silly addNameRange     '2.2.0',
+117 silly addNameRange     '2.2.1',
+117 silly addNameRange     '3.0.0',
+117 silly addNameRange     '3.0.1' ] ]
+118 verbose addNamed [ 'nopt', '2.1.2' ]
+119 verbose addNamed [ '2.1.2', '2.1.2' ]
+120 silly lockFile 7d0298b9-nopt-2-1-2 nopt@2.1.2
+121 verbose lock nopt@2.1.2 C:\Users\Puaha\AppData\Roaming\npm-cache\7d0298b9-nopt-2-1-2.lock
+122 silly lockFile 44760744-ry-npmjs-org-nopt-nopt-2-1-2-tgz https://registry.npmjs.org/nopt/-/nopt-2.1.2.tgz
+123 verbose lock https://registry.npmjs.org/nopt/-/nopt-2.1.2.tgz C:\Users\Puaha\AppData\Roaming\npm-cache\44760744-ry-npmjs-org-nopt-nopt-2-1-2-tgz.lock
+124 verbose addRemoteTarball [ 'https://registry.npmjs.org/nopt/-/nopt-2.1.2.tgz',
+124 verbose addRemoteTarball   '6cccd977b80132a07731d6e8ce58c2c8303cf9af' ]
+125 info retry fetch attempt 1 at 21:05:40
+126 verbose fetch to= C:\Users\Puaha\AppData\Local\Temp\npm-5984-G14Q9QZH\1408453540269-0.40999744832515717\tmp.tgz
+127 http GET https://registry.npmjs.org/nopt/-/nopt-2.1.2.tgz
+128 http 200 https://registry.npmjs.org/nopt/-/nopt-2.1.2.tgz
+129 verbose tar unpack C:\Users\Puaha\AppData\Local\Temp\npm-5984-G14Q9QZH\1408453540269-0.40999744832515717\tmp.tgz
+130 silly lockFile 66fa77c6-ing-npm-cache-nopt-2-1-2-package tar://C:\Users\Puaha\AppData\Roaming\npm-cache\nopt\2.1.2\package
+131 verbose lock tar://C:\Users\Puaha\AppData\Roaming\npm-cache\nopt\2.1.2\package C:\Users\Puaha\AppData\Roaming\npm-cache\66fa77c6-ing-npm-cache-nopt-2-1-2-package.lock
+132 silly lockFile d4b7c211-0269-0-40999744832515717-tmp-tgz tar://C:\Users\Puaha\AppData\Local\Temp\npm-5984-G14Q9QZH\1408453540269-0.40999744832515717\tmp.tgz
+133 verbose lock tar://C:\Users\Puaha\AppData\Local\Temp\npm-5984-G14Q9QZH\1408453540269-0.40999744832515717\tmp.tgz C:\Users\Puaha\AppData\Roaming\npm-cache\d4b7c211-0269-0-40999744832515717-tmp-tgz.lock
+134 silly gunzTarPerm modes [ '755', '644' ]
+135 silly gunzTarPerm extractEntry package.json
+136 silly gunzTarPerm extractEntry .npmignore
+137 silly gunzTarPerm extractEntry README.md
+138 silly gunzTarPerm extractEntry LICENSE
+139 silly gunzTarPerm extractEntry bin/nopt.js
+140 silly gunzTarPerm extractEntry examples/my-program.js
+141 silly gunzTarPerm extractEntry lib/nopt.js
+142 silly lockFile 66fa77c6-ing-npm-cache-nopt-2-1-2-package tar://C:\Users\Puaha\AppData\Roaming\npm-cache\nopt\2.1.2\package
+143 silly lockFile 66fa77c6-ing-npm-cache-nopt-2-1-2-package tar://C:\Users\Puaha\AppData\Roaming\npm-cache\nopt\2.1.2\package
+144 silly lockFile d4b7c211-0269-0-40999744832515717-tmp-tgz tar://C:\Users\Puaha\AppData\Local\Temp\npm-5984-G14Q9QZH\1408453540269-0.40999744832515717\tmp.tgz
+145 silly lockFile d4b7c211-0269-0-40999744832515717-tmp-tgz tar://C:\Users\Puaha\AppData\Local\Temp\npm-5984-G14Q9QZH\1408453540269-0.40999744832515717\tmp.tgz
+146 silly lockFile 44760744-ry-npmjs-org-nopt-nopt-2-1-2-tgz https://registry.npmjs.org/nopt/-/nopt-2.1.2.tgz
+147 silly lockFile 44760744-ry-npmjs-org-nopt-nopt-2-1-2-tgz https://registry.npmjs.org/nopt/-/nopt-2.1.2.tgz
+148 silly lockFile 7d0298b9-nopt-2-1-2 nopt@2.1.2
+149 silly lockFile 7d0298b9-nopt-2-1-2 nopt@2.1.2
+150 silly lockFile 527d9343-nopt-2-1-1 nopt@~2.1.1
+151 silly lockFile 527d9343-nopt-2-1-1 nopt@~2.1.1
+152 silly resolved [ { name: 'nopt',
+152 silly resolved     version: '2.1.2',
+152 silly resolved     description: 'Option parsing for Node, supporting types, shorthands, etc. Used by npm.',
+152 silly resolved     author:
+152 silly resolved      { name: 'Isaac Z. Schlueter',
+152 silly resolved        email: 'i@izs.me',
+152 silly resolved        url: 'http://blog.izs.me/' },
+152 silly resolved     main: 'lib/nopt.js',
+152 silly resolved     scripts: { test: 'node lib/nopt.js' },
+152 silly resolved     repository: { type: 'git', url: 'http://github.com/isaacs/nopt' },
+152 silly resolved     bin: { nopt: './bin/nopt.js' },
+152 silly resolved     license:
+152 silly resolved      { type: 'MIT',
+152 silly resolved        url: 'https://github.com/isaacs/nopt/raw/master/LICENSE' },
+152 silly resolved     dependencies: { abbrev: '1' },
+152 silly resolved     readme: 'If you want to write an option parser, and have it be good, there are\ntwo ways to do it.  The Right Way, and the Wrong Way.\n\nThe Wrong Way is to sit down and write an option parser.  We\'ve all done\nthat.\n\nThe Right Way is to write some complex configurable program with so many\noptions that you go half-insane just trying to manage them all, and put\nit off with duct-tape solutions until you see exactly to the core of the\nproblem, and finally snap and write an awesome option parser.\n\nIf you want to write an option parser, don\'t write an option parser.\nWrite a package manager, or a source control system, or a service\nrestarter, or an operating system.  You probably won\'t end up with a\ngood one of those, but if you don\'t give up, and you are relentless and\ndiligent enough in your procrastination, you may just end up with a very\nnice option parser.\n\n## USAGE\n\n    // my-program.js\n    var nopt = require("nopt")\n      , Stream = require("stream").Stream\n      , path = require("path")\n      , knownOpts = { "foo" : [String, null]\n                    , "bar" : [Stream, Number]\n                    , "baz" : path\n                    , "bloo" : [ "big", "medium", "small" ]\n                    , "flag" : Boolean\n                    , "pick" : Boolean\n                    , "many" : [String, Array]\n                    }\n      , shortHands = { "foofoo" : ["--foo", "Mr. Foo"]\n                     , "b7" : ["--bar", "7"]\n                     , "m" : ["--bloo", "medium"]\n                     , "p" : ["--pick"]\n                     , "f" : ["--flag"]\n                     }\n                 // everything is optional.\n                 // knownOpts and shorthands default to {}\n                 // arg list defaults to process.argv\n                 // slice defaults to 2\n      , parsed = nopt(knownOpts, shortHands, process.argv, 2)\n    console.log(parsed)\n\nThis would give you support for any of the following:\n\n```bash\n$ node my-program.js --foo "blerp" --no-flag\n{ "foo" : "blerp", "flag" : false }\n\n$ node my-program.js ---bar 7 --foo "Mr. Hand" --flag\n{ bar: 7, foo: "Mr. Hand", flag: true }\n\n$ node my-program.js --foo "blerp" -f -----p\n{ foo: "blerp", flag: true, pick: true }\n\n$ node my-program.js -fp --foofoo\n{ foo: "Mr. Foo", flag: true, pick: true }\n\n$ node my-program.js --foofoo -- -fp  # -- stops the flag parsing.\n{ foo: "Mr. Foo", argv: { remain: ["-fp"] } }\n\n$ node my-program.js --blatzk 1000 -fp # unknown opts are ok.\n{ blatzk: 1000, flag: true, pick: true }\n\n$ node my-program.js --blatzk true -fp # but they need a value\n{ blatzk: true, flag: true, pick: true }\n\n$ node my-program.js --no-blatzk -fp # unless they start with "no-"\n{ blatzk: false, flag: true, pick: true }\n\n$ node my-program.js --baz b/a/z # known paths are resolved.\n{ baz: "/Users/isaacs/b/a/z" }\n\n# if Array is one of the types, then it can take many\n# values, and will always be an array.  The other types provided\n# specify what types are allowed in the list.\n\n$ node my-program.js --many 1 --many null --many foo\n{ many: ["1", "null", "foo"] }\n\n$ node my-program.js --many foo\n{ many: ["foo"] }\n```\n\nRead the tests at the bottom of `lib/nopt.js` for more examples of\nwhat this puppy can do.\n\n## Types\n\nThe following types are supported, and defined on `nopt.typeDefs`\n\n* String: A normal string.  No parsing is done.\n* path: A file system path.  Gets resolved against cwd if not absolute.\n* url: A url.  If it doesn\'t parse, it isn\'t accepted.\n* Number: Must be numeric.\n* Date: Must parse as a date. If it does, and `Date` is one of the options,\n  then it will return a Date object, not a string.\n* Boolean: Must be either `true` or `false`.  If an option is a boolean,\n  then it does not need a value, and its presence will imply `true` as\n  the value.  To negate boolean flags, do `--no-whatever` or `--whatever\n  false`\n* NaN: Means that the option is strictly not allowed.  Any value will\n  fail.\n* Stream: An object matching the "Stream" class in node.  Valuable\n  for use when validating programmatically.  (npm uses this to let you\n  supply any WriteStream on the `outfd` and `logfd` config options.)\n* Array: If `Array` is specified as one of the types, then the value\n  will be parsed as a list of options.  This means that multiple values\n  can be specified, and that the value will always be an array.\n\nIf a type is an array of values not on this list, then those are\nconsidered valid values.  For instance, in the example above, the\n`--bloo` option can only be one of `"big"`, `"medium"`, or `"small"`,\nand any other value will be rejected.\n\nWhen parsing unknown fields, `"true"`, `"false"`, and `"null"` will be\ninterpreted as their JavaScript equivalents, and numeric values will be\ninterpreted as a number.\n\nYou can also mix types and values, or multiple types, in a list.  For\ninstance `{ blah: [Number, null] }` would allow a value to be set to\neither a Number or null.  When types are ordered, this implies a\npreference, and the first type that can be used to properly interpret\nthe value will be used.\n\nTo define a new type, add it to `nopt.typeDefs`.  Each item in that\nhash is an object with a `type` member and a `validate` method.  The\n`type` member is an object that matches what goes in the type list.  The\n`validate` method is a function that gets called with `validate(data,\nkey, val)`.  Validate methods should assign `data[key]` to the valid\nvalue of `val` if it can be handled properly, or return boolean\n`false` if it cannot.\n\nYou can also call `nopt.clean(data, types, typeDefs)` to clean up a\nconfig object and remove its invalid properties.\n\n## Error Handling\n\nBy default, nopt outputs a warning to standard error when invalid\noptions are found.  You can change this behavior by assigning a method\nto `nopt.invalidHandler`.  This method will be called with\nthe offending `nopt.invalidHandler(key, val, types)`.\n\nIf no `nopt.invalidHandler` is assigned, then it will console.error\nits whining.  If it is assigned to boolean `false` then the warning is\nsuppressed.\n\n## Abbreviations\n\nYes, they are supported.  If you define options like this:\n\n```javascript\n{ "foolhardyelephants" : Boolean\n, "pileofmonkeys" : Boolean }\n```\n\nThen this will work:\n\n```bash\nnode program.js --foolhar --pil\nnode program.js --no-f --pileofmon\n# etc.\n```\n\n## Shorthands\n\nShorthands are a hash of shorter option names to a snippet of args that\nthey expand to.\n\nIf multiple one-character shorthands are all combined, and the\ncombination does not unambiguously match any other option or shorthand,\nthen they will be broken up into their constituent parts.  For example:\n\n```json\n{ "s" : ["--loglevel", "silent"]\n, "g" : "--global"\n, "f" : "--force"\n, "p" : "--parseable"\n, "l" : "--long"\n}\n```\n\n```bash\nnpm ls -sgflp\n# just like doing this:\nnpm ls --loglevel silent --global --force --long --parseable\n```\n\n## The Rest of the args\n\nThe config object returned by nopt is given a special member called\n`argv`, which is an object with the following fields:\n\n* `remain`: The remaining args after all the parsing has occurred.\n* `original`: The args as they originally appeared.\n* `cooked`: The args after flags and shorthands are expanded.\n\n## Slicing\n\nNode programs are called with more or less the exact argv as it appears\nin C land, after the v8 and node-specific options have been plucked off.\nAs such, `argv[0]` is always `node` and `argv[1]` is always the\nJavaScript program being run.\n\nThat\'s usually not very useful to you.  So they\'re sliced off by\ndefault.  If you want them, then you can pass in `0` as the last\nargument, or any other number that you\'d like to slice off the start of\nthe list.\n',
+152 silly resolved     readmeFilename: 'README.md',
+152 silly resolved     bugs: { url: 'https://github.com/isaacs/nopt/issues' },
+152 silly resolved     homepage: 'https://github.com/isaacs/nopt',
+152 silly resolved     _id: 'nopt@2.1.2',
+152 silly resolved     _shasum: '6cccd977b80132a07731d6e8ce58c2c8303cf9af',
+152 silly resolved     _from: 'nopt@~2.1.1',
+152 silly resolved     _resolved: 'https://registry.npmjs.org/nopt/-/nopt-2.1.2.tgz' } ]
+153 info install nopt@2.1.2 into d:\workspace\project\demo\node_modules\markdown
+154 info installOne nopt@2.1.2
+155 info d:\workspace\project\demo\node_modules\markdown\node_modules\nopt unbuild
+156 verbose tar unpack C:\Users\Puaha\AppData\Roaming\npm-cache\nopt\2.1.2\package.tgz
+157 silly lockFile f473e1a7-dules-markdown-node-modules-nopt tar://d:\workspace\project\demo\node_modules\markdown\node_modules\nopt
+158 verbose lock tar://d:\workspace\project\demo\node_modules\markdown\node_modules\nopt C:\Users\Puaha\AppData\Roaming\npm-cache\f473e1a7-dules-markdown-node-modules-nopt.lock
+159 silly lockFile 23c5e0ed-npm-cache-nopt-2-1-2-package-tgz tar://C:\Users\Puaha\AppData\Roaming\npm-cache\nopt\2.1.2\package.tgz
+160 verbose lock tar://C:\Users\Puaha\AppData\Roaming\npm-cache\nopt\2.1.2\package.tgz C:\Users\Puaha\AppData\Roaming\npm-cache\23c5e0ed-npm-cache-nopt-2-1-2-package-tgz.lock
+161 silly gunzTarPerm modes [ '755', '644' ]
+162 silly gunzTarPerm extractEntry package.json
+163 silly gunzTarPerm extractEntry .npmignore
+164 silly gunzTarPerm extractEntry README.md
+165 silly gunzTarPerm extractEntry LICENSE
+166 silly gunzTarPerm extractEntry bin/nopt.js
+167 silly gunzTarPerm extractEntry examples/my-program.js
+168 silly gunzTarPerm extractEntry lib/nopt.js
+169 silly lockFile f473e1a7-dules-markdown-node-modules-nopt tar://d:\workspace\project\demo\node_modules\markdown\node_modules\nopt
+170 silly lockFile f473e1a7-dules-markdown-node-modules-nopt tar://d:\workspace\project\demo\node_modules\markdown\node_modules\nopt
+171 silly lockFile 23c5e0ed-npm-cache-nopt-2-1-2-package-tgz tar://C:\Users\Puaha\AppData\Roaming\npm-cache\nopt\2.1.2\package.tgz
+172 silly lockFile 23c5e0ed-npm-cache-nopt-2-1-2-package-tgz tar://C:\Users\Puaha\AppData\Roaming\npm-cache\nopt\2.1.2\package.tgz
+173 info preinstall nopt@2.1.2
+174 verbose readDependencies using package.json deps
+175 verbose readDependencies using package.json deps
+176 verbose cache add [ 'abbrev@1', null ]
+177 verbose cache add name=undefined spec="abbrev@1" args=["abbrev@1",null]
+178 verbose parsed url { protocol: null,
+178 verbose parsed url   slashes: null,
+178 verbose parsed url   auth: null,
+178 verbose parsed url   host: null,
+178 verbose parsed url   port: null,
+178 verbose parsed url   hostname: null,
+178 verbose parsed url   hash: null,
+178 verbose parsed url   search: null,
+178 verbose parsed url   query: null,
+178 verbose parsed url   pathname: 'abbrev@1',
+178 verbose parsed url   path: 'abbrev@1',
+178 verbose parsed url   href: 'abbrev@1' }
+179 verbose cache add name="abbrev" spec="1" args=["abbrev","1"]
+180 verbose parsed url { protocol: null,
+180 verbose parsed url   slashes: null,
+180 verbose parsed url   auth: null,
+180 verbose parsed url   host: null,
+180 verbose parsed url   port: null,
+180 verbose parsed url   hostname: null,
+180 verbose parsed url   hash: null,
+180 verbose parsed url   search: null,
+180 verbose parsed url   query: null,
+180 verbose parsed url   pathname: '1',
+180 verbose parsed url   path: '1',
+180 verbose parsed url   href: '1' }
+181 verbose addNamed [ 'abbrev', '1' ]
+182 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+183 silly lockFile 6830b531-abbrev-1 abbrev@1
+184 verbose lock abbrev@1 C:\Users\Puaha\AppData\Roaming\npm-cache\6830b531-abbrev-1.lock
+185 silly addNameRange { name: 'abbrev', range: '>=1.0.0-0 <2.0.0-0', hasData: false }
+186 verbose url raw abbrev
+187 verbose url resolving [ 'https://registry.npmjs.org/', './abbrev' ]
+188 verbose url resolved https://registry.npmjs.org/abbrev
+189 info trying registry request attempt 1 at 21:05:41
+190 verbose etag "D7EFU937SJBVELE2XOSSZEJ6S"
+191 http GET https://registry.npmjs.org/abbrev
+192 http 304 https://registry.npmjs.org/abbrev
+193 silly registry.get cb [ 304,
+193 silly registry.get   { date: 'Tue, 19 Aug 2014 13:05:43 GMT',
+193 silly registry.get     server: 'Apache',
+193 silly registry.get     via: '1.1 varnish',
+193 silly registry.get     'last-modified': 'Tue, 19 Aug 2014 13:00:00 GMT',
+193 silly registry.get     'cache-control': 'max-age=60',
+193 silly registry.get     etag: '"D7EFU937SJBVELE2XOSSZEJ6S"',
+193 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+193 silly registry.get     'x-cache': 'HIT',
+193 silly registry.get     'x-cache-hits': '20',
+193 silly registry.get     'x-timer': 'S1408453543.889407,VS0,VE0',
+193 silly registry.get     vary: 'Accept',
+193 silly registry.get     'content-length': '0',
+193 silly registry.get     'keep-alive': 'timeout=10, max=50',
+193 silly registry.get     connection: 'Keep-Alive' } ]
+194 verbose etag abbrev from cache
+195 silly addNameRange number 2 { name: 'abbrev', range: '>=1.0.0-0 <2.0.0-0', hasData: true }
+196 silly addNameRange versions [ 'abbrev', [ '1.0.3', '1.0.4', '1.0.5' ] ]
+197 verbose addNamed [ 'abbrev', '1.0.5' ]
+198 verbose addNamed [ '1.0.5', '1.0.5' ]
+199 silly lockFile 55d90b2f-abbrev-1-0-5 abbrev@1.0.5
+200 verbose lock abbrev@1.0.5 C:\Users\Puaha\AppData\Roaming\npm-cache\55d90b2f-abbrev-1-0-5.lock
+201 silly lockFile 55d90b2f-abbrev-1-0-5 abbrev@1.0.5
+202 silly lockFile 55d90b2f-abbrev-1-0-5 abbrev@1.0.5
+203 silly lockFile 6830b531-abbrev-1 abbrev@1
+204 silly lockFile 6830b531-abbrev-1 abbrev@1
+205 silly resolved [ { name: 'abbrev',
+205 silly resolved     version: '1.0.5',
+205 silly resolved     description: 'Like ruby\'s abbrev module, but in js',
+205 silly resolved     author: { name: 'Isaac Z. Schlueter', email: 'i@izs.me' },
+205 silly resolved     main: 'abbrev.js',
+205 silly resolved     scripts: { test: 'node test.js' },
+205 silly resolved     repository: { type: 'git', url: 'http://github.com/isaacs/abbrev-js' },
+205 silly resolved     license:
+205 silly resolved      { type: 'MIT',
+205 silly resolved        url: 'https://github.com/isaacs/abbrev-js/raw/master/LICENSE' },
+205 silly resolved     readme: '# abbrev-js\n\nJust like [ruby\'s Abbrev](http://apidock.com/ruby/Abbrev).\n\nUsage:\n\n    var abbrev = require("abbrev");\n    abbrev("foo", "fool", "folding", "flop");\n    \n    // returns:\n    { fl: \'flop\'\n    , flo: \'flop\'\n    , flop: \'flop\'\n    , fol: \'folding\'\n    , fold: \'folding\'\n    , foldi: \'folding\'\n    , foldin: \'folding\'\n    , folding: \'folding\'\n    , foo: \'foo\'\n    , fool: \'fool\'\n    }\n\nThis is handy for command-line scripts, or other cases where you want to be able to accept shorthands.\n',
+205 silly resolved     readmeFilename: 'README.md',
+205 silly resolved     bugs: { url: 'https://github.com/isaacs/abbrev-js/issues' },
+205 silly resolved     homepage: 'https://github.com/isaacs/abbrev-js',
+205 silly resolved     _id: 'abbrev@1.0.5',
+205 silly resolved     _shasum: '5d8257bd9ebe435e698b2fa431afde4fe7b10b03',
+205 silly resolved     _from: 'abbrev@1',
+205 silly resolved     _resolved: 'https://registry.npmjs.org/abbrev/-/abbrev-1.0.5.tgz' } ]
+206 info install abbrev@1.0.5 into d:\workspace\project\demo\node_modules\markdown\node_modules\nopt
+207 info installOne abbrev@1.0.5
+208 info d:\workspace\project\demo\node_modules\markdown\node_modules\nopt\node_modules\abbrev unbuild
+209 verbose tar unpack C:\Users\Puaha\AppData\Roaming\npm-cache\abbrev\1.0.5\package.tgz
+210 silly lockFile 807fb778-modules-nopt-node-modules-abbrev tar://d:\workspace\project\demo\node_modules\markdown\node_modules\nopt\node_modules\abbrev
+211 verbose lock tar://d:\workspace\project\demo\node_modules\markdown\node_modules\nopt\node_modules\abbrev C:\Users\Puaha\AppData\Roaming\npm-cache\807fb778-modules-nopt-node-modules-abbrev.lock
+212 silly lockFile c2c6a7c2-m-cache-abbrev-1-0-5-package-tgz tar://C:\Users\Puaha\AppData\Roaming\npm-cache\abbrev\1.0.5\package.tgz
+213 verbose lock tar://C:\Users\Puaha\AppData\Roaming\npm-cache\abbrev\1.0.5\package.tgz C:\Users\Puaha\AppData\Roaming\npm-cache\c2c6a7c2-m-cache-abbrev-1-0-5-package-tgz.lock
+214 silly gunzTarPerm modes [ '755', '644' ]
+215 silly gunzTarPerm extractEntry package.json
+216 silly gunzTarPerm extractEntry README.md
+217 silly gunzTarPerm extractEntry LICENSE
+218 silly gunzTarPerm extractEntry abbrev.js
+219 silly gunzTarPerm extractEntry test.js
+220 silly gunzTarPerm extractEntry CONTRIBUTING.md
+221 silly lockFile 807fb778-modules-nopt-node-modules-abbrev tar://d:\workspace\project\demo\node_modules\markdown\node_modules\nopt\node_modules\abbrev
+222 silly lockFile 807fb778-modules-nopt-node-modules-abbrev tar://d:\workspace\project\demo\node_modules\markdown\node_modules\nopt\node_modules\abbrev
+223 silly lockFile c2c6a7c2-m-cache-abbrev-1-0-5-package-tgz tar://C:\Users\Puaha\AppData\Roaming\npm-cache\abbrev\1.0.5\package.tgz
+224 silly lockFile c2c6a7c2-m-cache-abbrev-1-0-5-package-tgz tar://C:\Users\Puaha\AppData\Roaming\npm-cache\abbrev\1.0.5\package.tgz
+225 info preinstall abbrev@1.0.5
+226 verbose readDependencies using package.json deps
+227 verbose readDependencies using package.json deps
+228 silly resolved []
+229 verbose about to build d:\workspace\project\demo\node_modules\markdown\node_modules\nopt\node_modules\abbrev
+230 info build d:\workspace\project\demo\node_modules\markdown\node_modules\nopt\node_modules\abbrev
+231 verbose linkStuff [ false,
+231 verbose linkStuff   false,
+231 verbose linkStuff   false,
+231 verbose linkStuff   'd:\\workspace\\project\\demo\\node_modules\\markdown\\node_modules\\nopt\\node_modules' ]
+232 info linkStuff abbrev@1.0.5
+233 verbose linkBins abbrev@1.0.5
+234 verbose linkMans abbrev@1.0.5
+235 verbose rebuildBundles abbrev@1.0.5
+236 info install abbrev@1.0.5
+237 info postinstall abbrev@1.0.5
+238 verbose about to build d:\workspace\project\demo\node_modules\markdown\node_modules\nopt
+239 info build d:\workspace\project\demo\node_modules\markdown\node_modules\nopt
+240 verbose linkStuff [ false,
+240 verbose linkStuff   false,
+240 verbose linkStuff   false,
+240 verbose linkStuff   'd:\\workspace\\project\\demo\\node_modules\\markdown\\node_modules' ]
+241 info linkStuff nopt@2.1.2
+242 verbose linkBins nopt@2.1.2
+243 verbose link bins [ { nopt: './bin/nopt.js' },
+243 verbose link bins   'd:\\workspace\\project\\demo\\node_modules\\markdown\\node_modules\\.bin',
+243 verbose link bins   false ]
+244 verbose linkMans nopt@2.1.2
+245 verbose rebuildBundles nopt@2.1.2
+246 verbose rebuildBundles [ 'abbrev' ]
+247 info install nopt@2.1.2
+248 info postinstall nopt@2.1.2
+249 verbose about to build d:\workspace\project\demo\node_modules\markdown
+250 info build d:\workspace\project\demo\node_modules\markdown
+251 verbose linkStuff [ false,
+251 verbose linkStuff   false,
+251 verbose linkStuff   false,
+251 verbose linkStuff   'd:\\workspace\\project\\demo\\node_modules' ]
+252 info linkStuff markdown@0.5.0
+253 verbose linkBins markdown@0.5.0
+254 verbose link bins [ { md2html: './bin/md2html.js' },
+254 verbose link bins   'd:\\workspace\\project\\demo\\node_modules\\.bin',
+254 verbose link bins   false ]
+255 verbose linkMans markdown@0.5.0
+256 verbose rebuildBundles markdown@0.5.0
+257 verbose rebuildBundles [ '.bin', 'nopt' ]
+258 info install markdown@0.5.0
+259 info postinstall markdown@0.5.0
+260 info build d:\workspace\project\demo
+261 verbose linkStuff [ false, false, false, 'd:\\workspace\\project' ]
+262 info linkStuff smooth@0.0.1
+263 verbose linkBins smooth@0.0.1
+264 verbose linkMans smooth@0.0.1
+265 verbose rebuildBundles smooth@0.0.1
+266 verbose rebuildBundles [ '.bin',
+266 verbose rebuildBundles   'bson',
+266 verbose rebuildBundles   'connect-flash',
+266 verbose rebuildBundles   'connect-mongo',
+266 verbose rebuildBundles   'ejs',
+266 verbose rebuildBundles   'express',
+266 verbose rebuildBundles   'markdown',
+266 verbose rebuildBundles   'mongodb' ]
+267 verbose rebuild bundle d:\workspace\project\demo\node_modules\bson
+268 info build d:\workspace\project\demo\node_modules\bson
+269 info preinstall bson@0.2.11
+270 verbose linkStuff [ false,
+270 verbose linkStuff   false,
+270 verbose linkStuff   false,
+270 verbose linkStuff   'd:\\workspace\\project\\demo\\node_modules' ]
+271 info linkStuff bson@0.2.11
+272 verbose linkBins bson@0.2.11
+273 verbose linkMans bson@0.2.11
+274 verbose rebuildBundles bson@0.2.11
+275 verbose rebuildBundles [ 'nan' ]
+276 info install bson@0.2.11
+277 verbose unsafe-perm in lifecycle true
+278 error Error: spawn ENOENT
+278 error     at errnoException (child_process.js:998:11)
+278 error     at Process.ChildProcess._handle.onexit (child_process.js:789:34)
+279 error If you need help, you may report this *entire* log,
+279 error including the npm and node versions, at:
+279 error     <http://github.com/npm/npm/issues>
+280 error System Windows_NT 6.1.7601
+281 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+282 error cwd d:\workspace\project\demo
+283 error node -v v0.10.28
+284 error npm -v 1.4.9
+285 error syscall spawn
+286 error code ENOENT
+287 error errno ENOENT
+288 verbose exit [ 1, true ]
